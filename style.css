@@ -159,11 +159,6 @@ padding: 250px 0 200px;
     text-align: center;
 }
 
-.icon:hover {
-    transform: scale(1.5);
-    
-}
-
 
 .fa-calendar-check{
     margin: 7px;
@@ -218,7 +213,7 @@ padding: 250px 0 200px;
 @media (max-width: 768px)
 {
     .banner {
-        padding: 250px 0; 
+        padding: 150px 0; 
         }
     .banner h2 {
         font-size: 2.3em;
