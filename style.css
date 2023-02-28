@@ -38,7 +38,6 @@
     padding: 0; 
     margin: 0; 
     overflow-x: hidden;
-    overflow-y: hidden;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -160,9 +159,10 @@ padding: 250px 0 200px;
     text-align: center;
 }
 
-.icon:hover {
+.icon:hover:not(:last-child) {
     transform: scale(1.5);
-    margin: auto; 
+    margin: auto;
+    
 }
 
 
@@ -214,15 +214,6 @@ padding: 250px 0 200px;
     margin-left: -30px;
     
 }
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 768px)
