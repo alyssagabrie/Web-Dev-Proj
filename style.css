@@ -45,11 +45,11 @@
 .header 
 {
  background-color: #333333; 
-    padding: 25px;
+    padding: 40px;
 }
 
 .navbar {
-    padding: 25px;
+    padding: 30px;
 }
 
  .navbar-brand {
@@ -62,22 +62,10 @@
    
 }
 
-@media (max-width: 485px)
-{
-    .navbar-brand {
-        height: auto;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 0;
-        text-align: center;
-        margin: auto;
-    }
-
-    
+.img-logo {
+    width: 250px;
+    height: auto;
 }
-
-
 
 
 
