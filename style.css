@@ -162,6 +162,7 @@ padding: 250px 0 200px;
 .icon:hover {
     transform: scale(1.5);
     margin: auto; 
+    overflow-x: hidden;
 }
 
 
