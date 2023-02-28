@@ -1,0 +1,280 @@
+/* Default Font-sizes */
+
+/* p {
+    font-size: 1rem;
+   }
+   
+   h1 {
+    font-size: 3rem; 
+    font-family: 'Montserrat', sans-serif;
+   
+   }
+   
+   h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    
+   }
+   
+   h3 {
+    font-size: 1.5rem; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+   }
+
+   h4 {
+    font-size: 1.2rem; 
+    font-family: 'Montserrat', sans-serif;
+    
+   } */
+
+
+
+
+
+.body {
+    background-color: #fff;
+    padding: 0; 
+    margin: 0; 
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.header 
+{
+ background-color: #333333; 
+    padding: 25px;
+}
+
+.navbar {
+    padding: 25px;
+}
+
+ .navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+   
+}
+
+@media (max-width: 485px)
+{
+    .navbar-brand {
+        height: auto;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        text-align: center;
+        margin: auto;
+    }
+
+    
+}
+
+
+
+
+
+.banner {
+position: relative; 
+background: url(assets/banner.jpg);  
+min-height: 100vh;
+background-size: cover; 
+background-position: center;
+padding: 250px 0 200px; 
+
+}
+
+.banner h1 {
+    margin: 0; 
+    padding: 0; 
+    font-size: 2.8em;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  
+
+}
+
+.banner h4 {
+    margin: 1em 0 0; 
+    padding: 0; 
+    font-size: 1.7em;
+    font-weight: 600;
+    line-height: 1.5em;
+    letter-spacing: 1.2px;
+}
+
+.btnD1 {
+    display: inline-block;
+    background-color: #ac1a2d; 
+    color: white; 
+    padding: 10px 30px;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin: 1em 0 0 ;
+    border-style: none;
+    border-radius: 32px; 
+    font-weight: 200;
+}
+
+.btnD1:hover {
+    background-color: #8b1b2a; 
+    color: white; 
+    text-decoration: none;
+}
+
+/* Button Style Two */
+.btnD2 {
+    display: inline-block;
+    background-color: #000; 
+    color: white; 
+    padding: 10px 30px;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin: 1em 0 0 ;
+    border-style: none;
+    border-radius: 32px; 
+    font-weight: 200;
+}
+
+.btnD2:hover {
+    background-color: #1c1c1c; 
+    color: white; 
+    text-decoration: none;
+}
+
+.service-box {
+    padding: 10px;
+    margin: auto; 
+}
+
+.icon {
+    display:block; 
+    text-align: center;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+    margin: auto; 
+}
+
+
+.fa-calendar-check{
+    margin: 7px;
+}
+
+
+.card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    border: none;
+    padding: 1 rem; 
+}
+
+.card_header { 
+    margin: 1rem 0 0; 
+    margin-left: 2rem;
+    font-weight: 700;
+  
+  
+}
+
+.card_list {
+    list-style: none;
+    
+}
+
+.card_item {
+    margin: 1.5rem; 
+    font-size: 0.9rem; 
+    align-content: left;
+    letter-spacing: 0.5px;
+
+    
+}
+
+.card_item::before {
+  
+    content: "\f00c"; 
+    font-family: "Font Awesome 5 Free"; 
+    display: inline-block; 
+    font-weight: 900;
+    font-size: 1.3rem; 
+    color:#ac1a2d;
+    position: absolute;
+    margin-left: -30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px)
+{
+    .banner {
+        padding: 250px 0; 
+        }
+    .banner h2 {
+        font-size: 2.3em;
+    }
+    .banner p {
+        font-size: 1.4em;
+
+    }
+}
+
+.cta-section {
+    background-color: #ac1a2d;
+    padding: 20px 30px;
+}
+
+.cta-span {
+    font-weight: 700;
+}
+
+
+.info-secton {
+    padding: 3% 12%; 
+}
+
+.info-sectontwo {
+    padding-top: 3% ; 
+    text-align: left;
+  
+}
+
+.capabilities {
+    background-color: #ac1a2d;
+    padding: 4% 4%; 
+}
+
+.capabilities p {
+    color: white;
+    text-align: center;
+    
+}
+
+.footer {
+    background-color: #8a8a8a;
+    color: white; 
+    
+}
+
+.footer div {
+    font-size: 16px;
+}
