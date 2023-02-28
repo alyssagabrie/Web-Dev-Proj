@@ -159,9 +159,8 @@ padding: 250px 0 200px;
     text-align: center;
 }
 
-.icon:hover:not(:last-child) {
+.icon:hover {
     transform: scale(1.5);
-    margin: auto;
     
 }
 
